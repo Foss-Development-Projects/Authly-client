@@ -1,0 +1,17 @@
+.theme-button {
+	padding: 5px 6px;
+	font-size: 1.2em;
+	border-radius: 50%;
+	cursor: pointer;
+	display: flex;
+	color: var(--primary-accent-color);
+	align-items: center;
+	justify-content: center;
+	transition: box-shadow, color, background-color, 200ms ease-in-out;
+	&:hover {
+		transition: box-shadow, color, background-color, 200ms ease-in-out;
+		
+		box-shadow: 0 0 10px var(--primary-accent-color);
+		background-color: var(--navbar-bg-color);
+	}
+}

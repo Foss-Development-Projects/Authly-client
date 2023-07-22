@@ -1,0 +1,19 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Authly Client Side Project",
+  "main": "vite.config.ts",
+  "scripts": {
+    "dev": "vite --host",
+    "preview": "vite preview",
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.64.1",
+    "vite": "^4.4.6"
+  }
+}
